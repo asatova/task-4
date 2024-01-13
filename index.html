@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+</head>
+<body>
+<!--formalar bilan ishlash-->
+<h1>HTML form</h1>
+<form action="#">
+    <div>
+        <label for="firstName">firstName:</label>
+        <input type="text" id="firstName" name="firstName" />
+    </div>
+    <br />
+    <div>
+        <label for="lastName">lastName:</label>
+        <input type="text" id="lastName" name="lastName" />
+    </div>
+    <br />
+    <div>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" />
+    </div>
+    <br />
+    <div>
+        <input type="radio" id="gender" name="gender" value="male" />Male <br />
+        <input type="radio" id="gender" name="gender" value="famale" />Famale
+    </div>
+    <br />
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+    </div>
+</form>
+<!--2 task-->
+<h2>Travel rezervation form</h2>
+<h3>* denotes mandotory</h3>
+<form action="#">
+    <div>
+        <label for="fullName">fullName*:</label><br />
+        <input type="text" id="fullName" name="fullName" placeholder="FirsName LastName" />
+    </div>
+    <br />
+    <div>
+        <label for="email">email address*:</label><br />
+        <input type="email" id="email" name="email" placeholder="EMAIL_ADDRESS" />
+    </div>
+    <br />
+    <div>
+        <label for="select">Select Tour Package:</label><br />
+        <select name="select" id="select">
+            <option value="Goa">GOA</option>
+            <option value="Maldiva">Maldiva</option>
+            <option value="Bali">Bali</option>
+        </select>
+    </div>
+    <br />
+    <div>
+        <label for="date">arrival date*:</label><br />
+        <input type="date" id="date" name="date" />
+    </div>
+    <br />
+    <div>
+        <label for="number">number of persons*:</label><br />
+        <br />
+        <input type="number" id="number" name="number" placeholder="UNKNOWN_TYPE" />
+    </div>
+    <br />
+    <div>
+        <label for="avails">What would you want to avail?*</label><br />
+        <input type="checkbox" id="avails" name="avails" />Boarding <br />
+        <input type="checkbox" id="avails" name="avails" />Fooding <br />
+        <input type="checkbox" id="avails" name="avails" />Sight seeing <br />
+    </div>
+    <br />
+    <div>
+        <label for="coupon">Discount coupon code*:</label><br />
+        <br />
+        <input type="number" id="coupon" name="number" placeholder="UNKNOWN_TYPE" />
+    </div>
+    <br />
+    <div>
+        <label for="terms">Terms and conditions*</label><br />
+        <input type="radio" id="terms" name="terms" value="male" />I agree <input type="radio" id="terms" name="terms" value="famale" />I disagree
+    </div>
+    <br />
+    <div>
+        <button type="submit">Complete reservation</button>
+    </div>
+</form>
+<br />
+<!--3 task-->
+<form action="#">
+    <div>
+        <label for="firstNames">firstName:</label>
+        <input type="text" id="firstNames" name="firstNames" />
+    </div>
+    <br />
+    <div>
+        <label for="lastNames">lastName:</label>
+        <input type="text" id="lastNames" name="lastNames" />
+    </div>
+    <br />
+    <div>
+        <label for="select">Course:</label>
+        <select name="select" id="select">
+            <option value="Course">Course</option>
+            <option value="Math">math</option>
+            <option value="Library">Library</option>
+        </select>
+    </div>
+    <div>
+        <br />
+        <laber for="gender">Gender:</laber><br />
+        <input type="radio" id="gender" name="gender" value="male" />Male <br />
+        <input type="radio" id="gender" name="gender" value="famale" />Famale<br />
+        <input type="radio" id="gender" name="gender" value="other" />other<br />
+    </div>
+    <br />
+    <div>
+        <label for="hobbies">Hobbies:</label><br />
+        <input type="checkbox" id="hobbies" name="hobbies" />Programming <br />
+        <input type="checkbox" id="hobbies" name="hobbies" />Cricket <br />
+        <input type="checkbox" id="hobbies" name="hobbies" />Football <br />
+        <input type="checkbox" id="hobbies" name="hobbies" />Reading novel <br />
+    </div>
+    <br />
+    <div>
+        <label for="tel">Phone:</label>
+        <input type="number" id="tel" name="tel" />
+    </div>
+    <div>
+        <label for="area">Adress</label><br />
+        <textarea id="area" name="area"></textarea>
+    </div>
+    <br />
+    <div>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" />
+    </div>
+    <br />
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+    </div>
+    <br />
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+    </div>
+</form>
+</body>
+</html>
